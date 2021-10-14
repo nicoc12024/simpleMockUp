@@ -1,0 +1,29 @@
+#cursosPrivados {
+  padding: 0 2rem 3rem 2rem;
+  height: fit-content;
+  width: 100%;
+}
+
+.derecha {
+  p {
+    margin-bottom: 1rem;
+  }
+  a {
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(78, 78, 146);
+    padding: 1rem 2rem;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: fit-content;
+    background-color: #f08a70;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.09);
+      background-color: #f84a1f;
+    }
+  }
+}

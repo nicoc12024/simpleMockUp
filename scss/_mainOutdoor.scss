@@ -1,0 +1,24 @@
+#mainOutdoor {
+  padding: 2rem;
+  padding-top: 14rem;
+  height: 70vh;
+  background-color: transparent;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.383);
+  background-image: url("../img/outdoorClass.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+
+  .mainOutdoorContent {
+    width: 85%;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

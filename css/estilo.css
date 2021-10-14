@@ -1,0 +1,546 @@
+/* Footer */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #f08a70;
+  padding: 2rem;
+}
+
+footer .footer-content p {
+  margin-bottom: 0.2rem;
+}
+
+footer .social-icons i {
+  margin-right: 0.6rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+/* asdasd  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: #263f5a;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.secondaryTitle {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* Header */
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 1rem;
+}
+.logoBox a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.logoBox a h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
+#nav {
+  padding: 1rem;
+  background-color: transparent;
+}
+
+#nav .nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  min-height: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.spin {
+  transform: rotate(90deg);
+}
+.nav-header .burger .burgerLine {
+  height: 4px;
+  background-color: white;
+  width: 80%;
+  position: relative;
+}
+.nav-header .burger .burgerLine::after {
+  position: absolute;
+  content: "";
+  top: 8px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: white;
+  width: 100%;
+}
+
+.burger .burgerLine::before {
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: white;
+  width: 100%;
+}
+
+.links {
+  padding-top: 0.5rem;
+  overflow: hidden;
+  transition: 0.5s;
+  height: 0;
+}
+
+.show-links {
+  height: 15rem;
+}
+
+.links li {
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+.links li:hover {
+  border-radius: 5px;
+  background-color: #49a6e9;
+  transition: 0.2s;
+}
+
+.links li a {
+  color: white;
+  display: block;
+}
+
+#main {
+  padding: 2rem;
+  padding-top: 14rem;
+  height: 90vh;
+  background-color: transparent;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.383);
+  background-image: url("../img/tennisCourt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.main-content {
+  width: 85%;
+}
+.main-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main-content p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+/* Nuestros cursos */
+#nuestrosCursos {
+  padding: 2rem;
+  background-color: #263f5a;
+}
+
+#nuestrosCursos .cursosContenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#nuestrosCursos .cursosContenedor a {
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  margin: 0 auto 1.5rem auto;
+  transition: 0.2s;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.493);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#nuestrosCursos .cursosContenedor a p {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  z-index: 2;
+  padding: 0.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+}
+
+#nuestrosCursos .cursosContenedor .box1 {
+  background-image: url("../img/indoorClass.jpg");
+}
+
+#nuestrosCursos .cursosContenedor .box2 {
+  background-image: url("../img/outdoorClass.jpg");
+}
+#nuestrosCursos .cursosContenedor .box3 {
+  background-image: url("../img/privateClass.jpg");
+}
+
+#nuestrosCursos .cursosContenedor a:hover {
+  transform: scale(1.09);
+}
+#nuestrosCursos .cursosContenedor a:hover.box1,
+#nuestrosCursos .cursosContenedor a:hover.box2,
+#nuestrosCursos .cursosContenedor a:hover.box3 {
+  background-color: rgba(0, 0, 0, 0.274);
+}
+
+/* cursosIndoor.html */
+#mainIndoor {
+  padding: 2rem;
+  padding-top: 14rem;
+  height: 70vh;
+  background-color: transparent;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.383);
+  background-image: url("../img/indoorClass.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#mainIndoor .mainIndoorContent {
+  width: 85%;
+}
+#mainIndoor .mainIndoorContent h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#mainIndoor .mainIndoorContent {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#cursosIndoor {
+  padding: 2rem;
+}
+#cursosIndoor .derecha h3 {
+  margin-bottom: 1rem;
+}
+#cursosIndoor .derecha p {
+  margin-bottom: 1rem;
+}
+#cursosIndoor .derecha a {
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: rgb(78, 78, 146);
+  padding: 1rem 2rem;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+  background-color: #f08a70;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#cursosIndoor .derecha a:hover {
+  transform: scale(1.09);
+  background-color: #f84a1f;
+}
+
+/* cursosOutdoor.html */
+#mainOutdoor {
+  padding: 2rem;
+  padding-top: 14rem;
+  height: 70vh;
+  background-color: transparent;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.383);
+  background-image: url("../img/outdoorClass.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#mainOutdoor .mainOutdoorContent {
+  width: 85%;
+}
+#mainOutdoor .mainOutdoorContent h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#mainOutdoor .mainOutdoorContent {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cursosOutdoorContent {
+  padding: 2rem;
+}
+.cursosOutdoorContent .derecha h3 {
+  margin-bottom: 1rem;
+}
+.cursosOutdoorContent .derecha p {
+  margin-bottom: 1rem;
+}
+.cursosOutdoorContent .derecha a {
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: rgb(78, 78, 146);
+  padding: 1rem 2rem;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+  background-color: #f08a70;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.cursosOutdoorContent .derecha a:hover {
+  transform: scale(1.09);
+  background-color: #f84a1f;
+}
+/* cursosPrivados.html */
+#cursosPrivados {
+  padding: 0 2rem 3rem 2rem;
+  height: fit-content;
+  width: 100%;
+}
+
+#cursosPrivados .derecha a {
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: rgb(78, 78, 146);
+  padding: 1rem 2rem;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+  background-color: #f08a70;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#cursosPrivados .derecha a:hover {
+  transform: scale(1.09);
+  background-color: #f84a1f;
+}
+#cursosPrivados .derecha p {
+  margin-bottom: 1rem;
+}
+
+/* nosotros.html */
+.nosotrosContent {
+  width: 100%;
+  padding: 2rem 2rem 4rem 2rem;
+}
+.nosotrosContent p {
+  margin-bottom: 1rem;
+}
+
+/* contacto.html */
+#contacto .contactoContent {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#form {
+  position: relative;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto 4rem auto;
+}
+
+input {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #b3aca7;
+  transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+#submit {
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
+@media screen and (min-width: 768px) {
+  #nav .nav-center {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .main-content {
+    width: 65%;
+  }
+  .main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .main-content p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    height: auto;
+    justify-content: center;
+  }
+
+  .links li {
+    padding-right: 0.5rem;
+  }
+
+  .links li a {
+    color: white;
+  }
+
+  #nuestrosCursos {
+    padding: 2rem;
+    background-color: #263f5a;
+  }
+
+  #nuestrosCursos .cursosContenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #nuestrosCursos .cursosContenedor div {
+    height: 300px;
+    margin-right: 1rem;
+    margin: 0 1rem;
+  }
+  #nuestrosCursos .cursosContenedor a {
+    margin-right: 1rem;
+  }
+}

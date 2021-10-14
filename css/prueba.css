@@ -1,0 +1,53 @@
+#mainOutdoor {
+  padding: 2rem;
+  padding-top: 14rem;
+  height: 70vh;
+  background-color: transparent;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.383);
+  background-image: url("../img/outdoorClass.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay; }
+  #mainOutdoor .mainOutdoorContent {
+    width: 85%;
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+    #mainOutdoor .mainOutdoorContent h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem; }
+
+#cursosPrivados {
+  padding: 0 2rem 3rem 2rem;
+  height: fit-content;
+  width: 100%; }
+
+.derecha p {
+  margin-bottom: 1rem; }
+
+.derecha a {
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #4e4e92;
+  padding: 1rem 2rem;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+  background-color: #f08a70;
+  cursor: pointer;
+  transition: 0.2s; }
+  .derecha a:hover {
+    transform: scale(1.09);
+    background-color: #f84a1f; }
+
+footer {
+  background-color: #f08a70;
+  padding: 2rem; }
+  footer .footer-content p {
+    margin-bottom: 0.2rem; }
+  footer .social-icons i {
+    margin-right: 0.6rem;
+    margin-top: 1rem;
+    color: white; }
